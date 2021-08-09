@@ -1,0 +1,116 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 755px;
+  background-image: url(https://wallpaperaccess.com/full/2495387.jpg);
+  background-size: 120%;
+  background-position-y: -250px;
+  animation-name: tlo;
+  animation-duration: 12.5s;
+  animation-iteration-count: infinite;
+  align-items: center;
+  color: white;
+  font-size: 30px;    
+  font-family: 'Lobster', cursive;
+  
+}
+
+.information input {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.information button {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  margin-top: 10px;
+}
+
+.information h2{ 
+  color: rgb(63, 11, 185);
+  animation-name: tytul;
+  animation-duration: 0.11s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes tlo {
+  0%
+  {
+    background-image: url(https://i.pinimg.com/originals/f9/77/e4/f977e4a1fd6cce8b48aecfa3fd0b57f4.jpg);
+    background-position-x: -100px;
+    background-position-y: -100px;
+  }
+  50% 
+  {
+    background-image: url(https://wallpaper.dog/large/16992087.png);
+    background-position-x: -100px;
+  }    
+}
+
+@keyframes tytul{
+  0%
+  {
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #0aa,
+    0 0 45px #0fa,
+    0 0 55px #0fa,
+    0 0 70px #1aa,
+    0 0 80px #0fa;  
+  }
+  25% 
+  {
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #0aa,
+    0 0 45px #0fa,
+    0 0 55px #0fa,
+    0 0 70px #1aa,
+    0 0 80px #0fa;  
+  }   
+  50% 
+  {
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #0aa,
+    0 0 45px #0fa,
+    0 0 55px #0fa,
+    0 0 70px #1aa,
+    0 0 80px #0fa;  
+  }  
+  75% 
+  {
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #0aa,
+    0 0 45px #0fa,
+    0 0 55px #0fa,
+    0 0 70px #1aa,
+    0 0 80px #0fa;  
+  }   
+
+
+}
