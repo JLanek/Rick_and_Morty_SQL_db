@@ -1,6 +1,6 @@
 # Rick_and_Morty_SQL_db
 
-The project is to show a simple CRUDA in #React with which we can add a character to the database, show it, remove it and modify its name.
+The project is to show a simple CRUD in #React with which we can add a character to the database, show it, remove it and modify its name.
 
 # Addons
 
